@@ -3,6 +3,11 @@
     "version": "0.0.1",
     "type": "commonjs",
     "description": "Pictaccio shared code",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc -p .",
         "watch": "tsc -p . --watch",
@@ -18,11 +23,13 @@
     },
     "exports": {
         "./types/*": {
-            "import": "./dist/types/*",
-            "require": "./dist/types/*"
+            "types": "./dist/src/types/*",
+            "import": "./dist/src/types/*",
+            "require": "./dist/src/types/*"
         }
     },
     "dependencies": {
+    "tslib": "^2.6.2",
         "crypto": "^1.0.1",
         "mathjs": "^14.6.0",
         "path": "^0.12.7"
