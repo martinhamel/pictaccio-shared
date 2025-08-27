@@ -19,9 +19,9 @@
         "luxon": "^3.4.4"
     },
     "exports": {
-        "./*": {
-            "import": "./src/*",
-            "require": "./src/*"
+        "./types/*": {
+            "import": "./dist/types/*",
+            "require": "./dist/types/*"
         }
     },
     "dependencies": {

@@ -44,7 +44,7 @@
         "app/admin-api/src/*"
       ],
       "@pictaccio/shared/*": [
-        "lib/shared/*"
+        "dist/types/*"
       ],
       "@loufa/routing-controllers-openapi": [
         "lib/routing-controllers-openapi/src"
