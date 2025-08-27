@@ -1,5 +1,5 @@
-import { SaleTaxes } from '@pictaccio/shared/src/types/sale_taxes';
-import { TaxLocality } from '@pictaccio/shared/src/types/tax_locality';
+import { SaleTaxes } from '../types/sale_taxes';
+import { TaxLocality } from '../types/tax_locality';
 import { add, bignumber } from 'mathjs';
 
 export function calculateTaxes(taxes: SaleTaxes): string {

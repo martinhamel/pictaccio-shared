@@ -8,6 +8,7 @@
     "author": "Roxanne Courchesne <rcourchesne@loufa.io>",
     "license": "See LICENSE file",
     "devDependencies": {
+        "@types/node": "^24.3.0",
         "luxon": "^3.4.4"
     },
     "exports": {
@@ -15,5 +16,10 @@
             "import": "./src/*",
             "require": "./src/*"
         }
+    },
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "mathjs": "^14.6.0",
+        "path": "^0.12.7"
     }
 }

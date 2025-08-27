@@ -1,5 +1,5 @@
-import { CanadianTaxLocality } from '@pictaccio/shared/src/types/canadian_tax_locality';
-import { TaxLocality } from '@pictaccio/shared/src/types/tax_locality';
+import { CanadianTaxLocality } from '../types/canadian_tax_locality';
+import { TaxLocality } from '../types/tax_locality';
 
 export type StoreContact = {
     addressLine1: string;

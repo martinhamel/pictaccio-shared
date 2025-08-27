@@ -1,4 +1,4 @@
-import { TransactionType } from '@pictaccio/shared/src/types/transaction_type';
+import { TransactionType } from '../types/transaction_type';
 
 export type TransactionInfo = {
     code: string;

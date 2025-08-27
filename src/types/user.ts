@@ -1,5 +1,5 @@
-import { UserInfo } from '@pictaccio/shared/src/types/user_info';
-import { UserStatus } from '@pictaccio/shared/src/types/user_status';
+import { UserInfo } from '../types/user_info';
+import { UserStatus } from '../types/user_status';
 
 export interface User {
     id?: string;

@@ -1,6 +1,6 @@
-import { DeliveryMethod } from '@pictaccio/shared/src/types/delivery_method';
-import { DeliveryMethodOptions } from '@pictaccio/shared/src/types/delivery_method_options';
-import { LocalizedString } from '@pictaccio/shared/src/types/localized_string';
+import { DeliveryMethod } from '../types/delivery_method';
+import { DeliveryMethodOptions } from '../types/delivery_method_options';
+import { LocalizedString } from '../types/localized_string';
 
 export type OrderDeliveryOption = {
     id: string;

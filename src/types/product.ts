@@ -1,6 +1,6 @@
-import { LocalizedString } from '@pictaccio/shared/src/types/localized_string';
-import { ProductOptions } from '@pictaccio/shared/src/types/product_options';
-import { ProductType } from '@pictaccio/shared/src/types/product_type';
+import { LocalizedString } from '../types/localized_string';
+import { ProductOptions } from '../types/product_options';
+import { ProductType } from '../types/product_type';
 
 export type Product = {
     id: string;

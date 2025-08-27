@@ -1,4 +1,4 @@
-import { PhotoVersions } from '@pictaccio/shared/src/types/photo_versions';
+import { PhotoVersions } from '../types/photo_versions';
 
 export type PhotoVersionCollection = {
   [key: string]: PhotoVersions;

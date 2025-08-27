@@ -1,4 +1,4 @@
-import { Product } from '@pictaccio/shared/src/types/product';
+import { Product } from '../types/product';
 
 export function calculatePhysicalProduct(product: Product, selectionCount: number, quantity: number): number {
     let price: number;

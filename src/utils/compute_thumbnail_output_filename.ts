@@ -1,6 +1,6 @@
-import { ThumbnailSize } from '@pictaccio/shared/src/types/thumbnail_size';
-import { createHash } from 'node:crypto';
-import { join } from 'node:path';
+import { ThumbnailSize } from '../types/thumbnail_size';
+import { createHash } from 'crypto';
+import { join } from 'path';
 
 export function computeThumbnailOutputFileName(path: string,
     file: string,

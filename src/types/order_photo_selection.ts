@@ -1,4 +1,4 @@
-import { LocalizedString } from '@pictaccio/shared/src/types/localized_string';
+import { LocalizedString } from '../types/localized_string';
 
 export type OrderPhotoSelectionItem = {
     image: {

@@ -1,5 +1,5 @@
-import { LocalizedString } from '@pictaccio/shared/src/types/localized_string';
-import { SessionOptions } from '@pictaccio/shared/src/types/session_options';
+import { LocalizedString } from '../types/localized_string';
+import { SessionOptions } from '../types/session_options';
 
 export type SessionInfo = {
     internalName: string;

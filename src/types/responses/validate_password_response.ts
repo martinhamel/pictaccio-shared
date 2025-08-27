@@ -1,4 +1,4 @@
-import { BaseResponse } from '@pictaccio/shared/src/types/responses/base_response';
+import { BaseResponse } from '../../types/responses/base_response';
 
 export type ValidatePasswordResponse = {
     valid: boolean;

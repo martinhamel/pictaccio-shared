@@ -1,4 +1,4 @@
-import { WorkflowOptions } from '@pictaccio/shared/src/types/workflow_options';
+import { WorkflowOptions } from '../types/workflow_options';
 
 export type Workflow = {
     id: number;

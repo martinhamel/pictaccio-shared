@@ -1,4 +1,4 @@
-import { Tag, TagScopes } from '@pictaccio/shared/src/types/tags';
+import { Tag, TagScopes } from '../../types/tags';
 
 export function isTag(tag: any): tag is Tag {
     return typeof tag === 'object' &&

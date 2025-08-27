@@ -1,3 +1,3 @@
-import { PhotoSelection } from '@pictaccio/shared/src/types/photo_selection';
+import { PhotoSelection } from '../types/photo_selection';
 
 export type PhotoSelections = { [key: string]: PhotoSelection };

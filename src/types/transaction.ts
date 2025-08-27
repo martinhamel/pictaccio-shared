@@ -1,6 +1,6 @@
-import { CanadianTaxLocality } from '@pictaccio/shared/src/types/canadian_tax_locality';
-import { SaleTaxes } from '@pictaccio/shared/src/types/sale_taxes';
-import { TransactionInfo } from '@pictaccio/shared/src/types/transaction_info';
+import { CanadianTaxLocality } from '../types/canadian_tax_locality';
+import { SaleTaxes } from '../types/sale_taxes';
+import { TransactionInfo } from '../types/transaction_info';
 
 export type Transaction = {
     subtotal: string;

@@ -1,0 +1,11 @@
+services:
+  pictaccio-shared:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app:z
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development

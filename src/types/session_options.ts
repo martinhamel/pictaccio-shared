@@ -1,4 +1,4 @@
-import { SessionColor } from '@pictaccio/shared/src/types/session_color';
+import { SessionColor } from '../types/session_color';
 
 export type SessionDefaultableOptions = {
     digitalGroupPrice: number[];

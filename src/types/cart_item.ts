@@ -1,7 +1,7 @@
-import { LocalizedString } from '@pictaccio/shared/src/types/localized_string';
-import { ProductPhoto } from '@pictaccio/shared/src/types/product_photo';
-import { ProductType } from '@pictaccio/shared/src/types/product_type';
-import { VirtualProduct } from '@pictaccio/shared/src/types/virtual_product';
+import { LocalizedString } from '../types/localized_string';
+import { ProductPhoto } from '../types/product_photo';
+import { ProductType } from '../types/product_type';
+import { VirtualProduct } from '../types/virtual_product';
 
 export type CartItem = {
     cartItemId?: string;

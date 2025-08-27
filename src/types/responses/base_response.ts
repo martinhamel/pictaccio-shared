@@ -1,4 +1,4 @@
-import { ApiResponseStatus } from '@pictaccio/shared/src/types/responses/api_response_status';
+import { ApiResponseStatus } from '../../types/responses/api_response_status';
 
 export type BaseResponse = {
     status: ApiResponseStatus;

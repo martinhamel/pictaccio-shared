@@ -1,4 +1,4 @@
-import { Language } from '@pictaccio/shared/src/types/language';
+import { Language } from '../types/language';
 
 export type StoreLanguageItem = {
     order: number;

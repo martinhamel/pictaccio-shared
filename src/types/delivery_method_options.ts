@@ -1,4 +1,4 @@
-import { CanadaPostProduct } from '@pictaccio/shared/src/types/canada_post_product';
+import { CanadaPostProduct } from '../types/canada_post_product';
 
 export type DeliveryMethodCanadaPostOptions = {
     envelopeEta: number,

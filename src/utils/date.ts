@@ -1,4 +1,4 @@
-import { DateRange } from '@pictaccio/shared/src/types/date_range';
+import { DateRange } from '../types/date_range';
 
 export function getToday(): DateRange {
     const now = new Date();

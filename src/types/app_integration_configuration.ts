@@ -1,4 +1,4 @@
-import { AppIntegrationApp } from '@pictaccio/shared/src/types/app_integration_app';
+import { AppIntegrationApp } from '../types/app_integration_app';
 
 export type AppIntegrationConfiguration = {
     app: AppIntegrationApp;

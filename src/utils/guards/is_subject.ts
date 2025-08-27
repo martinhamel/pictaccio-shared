@@ -1,4 +1,4 @@
-import { Subject } from '@pictaccio/shared/src/types/subject';
+import { Subject } from '../../types/subject';
 
 export function isSubject(subject: any): subject is Subject {
     return subject !== null &&

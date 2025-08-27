@@ -1,4 +1,4 @@
-import { NamedColors } from '@pictaccio/shared/src/types/named_colors';
+import { NamedColors } from '../types/named_colors';
 
 export type TransactionalCustomization = {
     storeName: string;
