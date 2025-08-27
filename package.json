@@ -3,14 +3,14 @@
     "version": "0.0.1",
     "type": "commonjs",
     "description": "Pictaccio shared code",
-    "main": "index.js",
     "scripts": {
         "build": "tsc -p .",
         "watch": "tsc -p . --watch",
         "lint": "eslint . --ext .ts",
         "lint:fix": "eslint . --ext .ts --fix",
         "prettier": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "tsc"
     },
     "author": "Roxanne Courchesne <rcourchesne@loufa.io>",
     "license": "See LICENSE file",
