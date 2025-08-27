@@ -1,0 +1,21 @@
+import { LocalizedString } from '@pictaccio/shared/src/types/localized_string';
+import { ProductPhoto } from '@pictaccio/shared/src/types/product_photo';
+import { ProductType } from '@pictaccio/shared/src/types/product_type';
+import { VirtualProduct } from '@pictaccio/shared/src/types/virtual_product';
+
+export type CartItem = {
+    cartItemId?: string;
+    productType?: ProductType;
+    customProductSelection?: string[];
+    comment?: string;
+    photos?: string[];
+    productId?: string;
+    quantity?: number;
+    productName?: string | VirtualProduct;
+    productNameLocale?: LocalizedString;
+    productPhoto?: ProductPhoto;
+    subtotal?: number;
+    productPrice?: number;
+    theme?: string;
+    themeLocale?: LocalizedString;
+}

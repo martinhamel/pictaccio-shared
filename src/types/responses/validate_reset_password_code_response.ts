@@ -1,0 +1,5 @@
+import { BaseResponse } from '@pictaccio/shared/src/types/responses/base_response';
+
+export type ValidateResetPasswordCodeResponse = {
+    resetToken?: string;
+} & BaseResponse;

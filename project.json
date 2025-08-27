@@ -1,0 +1,29 @@
+{
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "name": "shared",
+    "sourceRoot": "lib/shared/src",
+    "projectType": "library",
+
+    "targets": {
+        "build": {
+            "executor": "@nx/js:tsc",
+            "dependsOn": [
+                {
+                    "projects": ["typescript-transform-path-rewrite"],
+                    "target": "build"
+                }
+            ],
+            "options": {
+                "main": "{projectRoot}/src/entry.ts",
+                "outputPath": "{workspaceRoot}/dist/lib/shared",
+                "tsConfig": "{projectRoot}/tsconfig.json",
+                "clean": false
+            },
+            "configurations": {
+                "production": {
+                    "outputPath": "{workspaceRoot}/../app/lib/shared"
+                }
+            }
+        }
+    }
+}

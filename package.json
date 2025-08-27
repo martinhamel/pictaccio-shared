@@ -1,0 +1,19 @@
+{
+    "name": "@pictaccio/shared",
+    "version": "0.0.1",
+    "type": "commonjs",
+    "description": "Pictaccio shared code",
+    "main": "index.js",
+    "scripts": {},
+    "author": "Roxanne Courchesne <rcourchesne@loufa.io>",
+    "license": "See LICENSE file",
+    "devDependencies": {
+        "luxon": "^3.4.4"
+    },
+    "exports": {
+        "./*": {
+            "import": "./src/*",
+            "require": "./src/*"
+        }
+    }
+}
