@@ -1,0 +1,27 @@
+import { Language } from '../types/language';
+import { OrderMeta } from '../types/order_meta';
+import { PhotoSelections } from '../types/photo_selections';
+import { PhotoSession } from '../types/responses/photo_session';
+import { Subject } from '../types/subject';
+import { CartItem } from '../types/cart_item';
+import { ContactInfo } from '../types/contact_info';
+import { PhotoVersionCollection } from '../types/photo_version_collection';
+import { OrderDeliveryOption } from '../types/order_delivery_option';
+import { SubjectGroup } from '../types/subject_group';
+import { Transaction } from '../types/transaction';
+export type OrderDescriptor = {
+    cartItems: CartItem[];
+    comment?: string;
+    contact?: ContactInfo;
+    date: Date;
+    id: string;
+    language: Language;
+    meta?: OrderMeta;
+    photoVersions?: PhotoVersionCollection;
+    photos: PhotoSelections;
+    session: PhotoSession;
+    deliveryOption?: OrderDeliveryOption;
+    subjects: Subject[];
+    subjectGroups: SubjectGroup[];
+    transaction?: Transaction;
+};

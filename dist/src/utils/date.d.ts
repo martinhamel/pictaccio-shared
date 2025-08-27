@@ -1,0 +1,16 @@
+import { DateRange } from '../types/date_range';
+export declare function getToday(): DateRange;
+export declare function getYesterday(): DateRange;
+export declare function getThisWeek(): DateRange;
+export declare function getLastWeek(): DateRange;
+export declare function getThisMonth(): DateRange;
+export declare function getLastMonth(): DateRange;
+export declare function getThis3Month(): DateRange;
+export declare function getLast3Month(): DateRange;
+export declare function getThis6Month(): DateRange;
+export declare function getLast6Month(): DateRange;
+export declare function getThisYear(): DateRange;
+export declare function getLastYear(): DateRange;
+export declare function getThisQuarter(): DateRange;
+export declare function getLastQuarter(): DateRange;
+export declare function resolveDateRange<T extends Date | string>(dateRange: DateRange<T>): DateRange;

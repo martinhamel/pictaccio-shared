@@ -1,0 +1,1 @@
+{"version":3,"file":"is_transaction_info.js","sourceRoot":"","sources":["../../../../src/utils/guards/is_transaction_info.ts"],"names":[],"mappings":";;AAEA,8CAMC;AAND,SAAgB,iBAAiB,CAAC,eAAoB;IAClD,OAAO,eAAe,KAAK,IAAI;QAC3B,OAAO,eAAe,KAAK,QAAQ;QACnC,OAAO,eAAe,CAAC,IAAI,KAAK,QAAQ;QACxC,OAAO,eAAe,CAAC,OAAO,KAAK,SAAS;QAC5C,OAAO,eAAe,CAAC,IAAI,KAAK,QAAQ,CAAC;AACjD,CAAC"}
